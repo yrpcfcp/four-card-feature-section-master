@@ -29,6 +29,5 @@ body{
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     background-color: var(--clr-neutral-vlight-grey);
-    border-left: 10px black;
-    border-right: 10px black;
+    
 }
