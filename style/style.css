@@ -31,6 +31,10 @@ body{
     background-color: var(--clr-neutral-vlight-grey);
     }
 
+article{
+    text-align: center;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -39,16 +43,22 @@ header{
     width: 32%;
 }
 
-header h1, h2{
+header h1{
     font-size: 1.8rem;
     margin: 1rem auto;
+    font-weight: 300;
+    line-height: 1;
 }
+
+
+
 
 header p{
     font-size: 0.9rem;
-    align-self: center;
+    text-align: center;
     line-height: 2;
-    margin: 0 0 3rem 0;
+    margin: 1rem 0 4rem 0;
+    opacity: 0.6;
 }
 
 .main-container{
@@ -57,7 +67,7 @@ header p{
     flex-direction: column;
     justify-content: center;
     border-top: 0.3rem var(--clr-primary-red) solid;
-    box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem rgb(232, 232, 232);
+    box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-radius: 0.3rem;
     margin: 0 auto;
     padding: 1.8rem;
@@ -89,7 +99,7 @@ header p{
     flex-direction: column;
     justify-content: center;
     border-top: 0.3rem var(--clr-primary-cyan) solid;
-    box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem rgb(232, 232, 232);
+    box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-bottom: 0.3rem transparent;
     border-radius: 0.3rem;
     margin: -5.5rem 0 0 12rem;
@@ -121,7 +131,7 @@ header p{
     flex-direction: column;
     justify-content: center;
     border-top: 0.3rem var(--clr-primary-blue) solid;
-    box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem rgb(232, 232, 232);
+    box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-bottom: 0.3rem transparent;
     border-radius: 0.3rem;
     margin: -15.5rem 0 0 56rem;
@@ -154,9 +164,9 @@ header p{
     justify-content: center;
     border-top: 0.3rem var(--clr-primary-orange) solid;
     padding: 0.5rem;
-    box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem rgb(232, 232, 232);
+    box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-radius: 0.3rem;
-    margin: -5rem 0 0 34.2rem;
+    margin: -7rem 0 0 34.2rem;
     padding: 1.8rem;
     width: 18%;
 }
@@ -179,3 +189,17 @@ header p{
     line-height: 2;
 
 }
+
+
+/*--------------------- MEDIA QUERIES----------------- */
+
+/* @media screen and (max-width: 375px) {
+
+    article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 2;
+        min-width: 35%;
+    }
+    } 
