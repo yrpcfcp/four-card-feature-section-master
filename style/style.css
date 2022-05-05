@@ -44,7 +44,7 @@ header{
 }
 
 header h1{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: 1rem auto;
     font-weight: 300;
     line-height: 1;
@@ -69,7 +69,7 @@ header p{
     border-top: 0.3rem var(--clr-primary-red) solid;
     box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-radius: 0.3rem;
-    margin: 0 auto;
+    margin: 0 auto auto 34rem;
     padding: 1.8rem;
     width: 18%;
 }
@@ -102,7 +102,7 @@ header p{
     box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-bottom: 0.3rem transparent;
     border-radius: 0.3rem;
-    margin: -5.5rem 0 0 12rem;
+    margin: -5.5rem 0 0 13rem;
     padding: 1.8rem;
     width: 18%;
 }
@@ -134,7 +134,7 @@ header p{
     box-shadow: 0.4rem 0.2rem 0.3rem 0.4rem rgb(232, 232, 232);
     border-bottom: 0.3rem transparent;
     border-radius: 0.3rem;
-    margin: -15.5rem 0 0 56rem;
+    margin: -15.5rem 0 0 55.5rem;
     padding: 1.8rem;
     width: 18%;
 }
