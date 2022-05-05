@@ -193,13 +193,28 @@ header p{
 
 /*--------------------- MEDIA QUERIES----------------- */
 
-/* @media screen and (max-width: 375px) {
+ @media screen and (max-width: 375px) {
+        /* main {
+            display: flex;
+            flex-direction: column;
+        } */
 
-    article{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex: 1 2;
-        min-width: 35%;
-    }
+        .main-container, .main-container-left, .main-container-right, .main-container-bottom{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto 2rem 0;
+            min-width: 60%;
+            padding-bottom: 1rem;
+        }
+
+        header{
+            margin: 0 auto 0 1.5rem;
+            min-width: 65%;
+        }
+        
+
+       
+        
+        
+    
     } 
